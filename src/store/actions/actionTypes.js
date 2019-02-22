@@ -1,0 +1,9 @@
+export const ADD_DOG = 'ADD_DOG';
+export const ADD_DOG_LIST = "ADD_DOG_LIST";
+export const ACTIVATE = 'ACTIVATE';
+export const SET_IMAGES_BY_BREED = 'SET_IMAGES_BY_BREED';
+export const SET_IMAGE_URL = 'SET_IMAGE_URL';
+export const SET_LOADING_IMAGE_TRUE = 'SET_LOADING_IMAGE_TRUE';
+export const SET_LOADING_IMAGE_FALSE = 'SET_LOADING_IMAGE_FALSE';
+export const INIT_DOGS = "INIT_DOGS";
+export const INIT_IMAGES = "INIT_IMAGES";

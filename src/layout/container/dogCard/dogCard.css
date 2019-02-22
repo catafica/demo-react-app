@@ -1,0 +1,76 @@
+.imageContainer{
+  position:absolute;
+  left:20%;
+  top:23%;
+  width:500px;
+  height:500px;
+  background-color:white;
+  margin-left:auto;
+  margin-right:auto;
+  border:8px solid white;
+
+
+}
+
+.dog-image{
+  min-width:484px;
+  max-width:484px;
+  max-height:430px;
+  min-height:430px;
+}
+
+.cardTitle{
+  text-align:center;
+  margin-top:13px;
+  display:inline-block;
+  margin-left:5px;
+}
+
+/* .nextButton{
+  margin-top:-10px;
+  display:inline-block;
+  text-align:right;
+  font-size:18px;
+  margin-left:120px;
+} */
+
+.nextButton{
+  font-size:18px;
+  /* display:inline-block; */
+  height:40px;
+  margin-top:10px;
+}
+
+.glyphicon-menu-right{
+  font-size:14px;
+}
+
+
+
+
+@media(max-width:1315px){
+  .imageContainer{
+    position:relative;
+    margin-left:-100px;
+    margin-right:auto;
+  }
+}
+
+@media(max-width:750px){
+  .imageContainer{
+    position:relative;
+    margin-left:-50px;
+    margin-right:auto;
+  }
+}
+
+@media(max-width:414px){
+  .imageContainer{
+    
+  }
+}
+@media(max-width:400px){
+  .imageContainer{
+    position:relative;
+  }
+}
